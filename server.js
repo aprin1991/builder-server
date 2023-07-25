@@ -4,7 +4,13 @@ const path = require('path');
 const fs = require('fs');
 const defaulColorObject = require('./colors');
 const app = express();
-app.use(cors({ credentials: true, origin: true }));
+app.options('*', cors());
+var corsOptions = {
+  origin: 'http://localhost:3006',
+  optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+};
+
+app.use(cors(corsOptions));
 app.use('/public', express.static('public'));
 app.use(express.json());
 
