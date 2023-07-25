@@ -32,9 +32,6 @@ function generateCSS(name) {
       background-color: #f0f0f0;
     }
 
-    h1 {
-      color: #007bff;
-    }
   `;
 
   Object.keys(colors[name]).forEach((key) => {
