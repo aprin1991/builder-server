@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 const defaulColorObject = require('./colors');
 const app = express();
-app.use(cors());
+app.use(cors({ credentials: true, origin: true }));
 app.use('/public', express.static('public'));
 app.use(express.json());
 
