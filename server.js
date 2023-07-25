@@ -4,7 +4,12 @@ const path = require('path');
 const fs = require('fs');
 const defaulColorObject = require('./colors');
 const app = express();
-app.options('*', cors());
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
+
 app.use(cors());
 app.use('/public', express.static('public'));
 app.use(express.json());
