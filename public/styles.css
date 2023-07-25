@@ -1,0 +1,80 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      color: #007bff;
+    }
+  
+      .text-blue-50{
+        color:#FF0000 ;
+      }
+      .bg-blue-50{
+        background-color:#FF0000 ;
+      }
+      
+      .text-blue-100{
+        color:#EBF3FE ;
+      }
+      .bg-blue-100{
+        background-color:#EBF3FE ;
+      }
+      
+      .text-blue-200{
+        color:#CEE0FD ;
+      }
+      .bg-blue-200{
+        background-color:#CEE0FD ;
+      }
+      
+      .text-blue-300{
+        color:#B1CDFB ;
+      }
+      .bg-blue-300{
+        background-color:#B1CDFB ;
+      }
+      
+      .text-blue-400{
+        color:#76A8F9 ;
+      }
+      .bg-blue-400{
+        background-color:#76A8F9 ;
+      }
+      
+      .text-blue-500{
+        color:#3B82F6 ;
+      }
+      .bg-blue-500{
+        background-color:#3B82F6 ;
+      }
+      
+      .text-blue-600{
+        color:#3575DD ;
+      }
+      .bg-blue-600{
+        background-color:#3575DD ;
+      }
+      
+      .text-blue-700{
+        color:#2C62B9 ;
+      }
+      .bg-blue-700{
+        background-color:#2C62B9 ;
+      }
+      
+      .text-blue-800{
+        color:#234E94 ;
+      }
+      .bg-blue-800{
+        background-color:#234E94 ;
+      }
+      
+      .text-blue-900{
+        color:#1D4079 ;
+      }
+      .bg-blue-900{
+        background-color:#1D4079 ;
+      }
+      
